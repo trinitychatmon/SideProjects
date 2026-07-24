@@ -1,0 +1,17 @@
+{
+  "name": "codementor-backend",
+  "version": "1.0.0",
+  "description": "Backend for Codementor, a daily-use AI coding tutor",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.32.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2"
+  }
+}
